@@ -1,0 +1,6 @@
+file = open("thinknyx.txt",'a')
+file.write("This is the appended text. Pay attention to the location of this text.")
+file.close()
+file2 = open("thinknyx.txt",'r')
+print(file2.read())
+file2.close()
